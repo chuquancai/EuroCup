@@ -1,7 +1,16 @@
 .DS_Store
+
 node_modules/
+
 dist/
+
 npm-debug.log
+
 selenium-debug.log
-test/unit/coverage
+
+test/
+unit/
+coverage
 test/e2e/reports
+userStatus_test.html
+EC_images/
