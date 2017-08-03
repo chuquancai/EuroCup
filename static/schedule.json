@@ -1,0 +1,108 @@
+{
+  "code": "success",
+  "data": {
+    "5月29日": {
+      "C组": [{
+        "countA": 0,
+        "countB": 0,
+        "countDraw": 0,
+        "id": "574ff0848b1aced2455900db",
+        "logoA": "http://192.168.1.200:8080/group1/M00/6E/37/wKgByFdP8A-AGrtpAADwfqKVI_I018.gif",
+        "logoB": "http://192.168.1.200:8080/group1/M00/6E/37/wKgByFdP7_KAG2DyAAAUwjTz1JE203.gif",
+        "nameA": "艺术妹子队",
+        "nameB": "程序员队",
+        "playDate": 1464451200000,
+        "playTime": 1464511080000,
+        "playTimeMd": "5月29日",
+        "playTimeStr": "16:00",
+        "result": -1,
+        "scoreA": 13,
+        "scoreB": 4,
+        "stage": 2,
+        "teamA": "574ff0228b1aced2455900d7",
+        "teamB": "574ff0058b1aced2455900d5"
+      }]
+    },
+    "5月31日": {
+      "D组": [{
+        "countA": 0,
+        "countB": 0,
+        "countDraw": 0,
+        "id": "574ff8248b1a7170572908dd",
+        "logoA": "http://192.168.1.200:8080/group1/M00/6E/37/wKgByFdP8B2AOdwEAABgKv3TU5o547.gif",
+        "logoB": "http://192.168.1.200:8080/group1/M00/6E/37/wKgByFdP8A-AGrtpAADwfqKVI_I018.gif",
+        "nameA": "乌龟队",
+        "nameB": "艺术妹子队",
+        "playDate": 1464624000000,
+        "playTime": 1464685800000,
+        "playTimeMd": "5月31日",
+        "playTimeStr": "17:00",
+        "result": 1,
+        "scoreA": 1,
+        "scoreB": 18,
+        "stage": 3,
+        "teamA": "574ff0308b1aced2455900d8",
+        "teamB": "574ff0228b1aced2455900d7"
+      }]
+    },
+    "6月03日": {
+      "1/4决赛": [{
+        "countA": 0,
+        "countB": 0,
+        "countDraw": 1,
+        "id": "5750000a8b1a7170572908df",
+        "logoA": "http://192.168.1.200:8080/group1/M00/6E/37/wKgByFdP-FKAQZzIAABM3AGK-Ao928.gif",
+        "logoB": "http://192.168.1.200:8080/group1/M00/6E/37/wKgByFdP8B2AOdwEAABgKv3TU5o547.gif",
+        "nameA": "产品队",
+        "nameB": "乌龟队",
+        "playDate": 1464883200000,
+        "playTime": 1464947040000,
+        "playTimeMd": "6月03日",
+        "playTimeStr": "17:00",
+        "result": 0,
+        "scoreA": 2,
+        "scoreB": 2,
+        "stage": 7,
+        "teamA": "574ff8668b1a7170572908de",
+        "teamB": "574ff0308b1aced2455900d8"
+      }],
+      "A组": [{
+        "countA": 0,
+        "countB": 0,
+        "countDraw": 2,
+        "id": "574ff04b8b1aced2455900d9",
+        "logoA": "http://192.168.1.200:8080/group1/M00/6E/37/wKgByFdP7_KAG2DyAAAUwjTz1JE203.gif",
+        "logoB": "http://192.168.1.200:8080/group1/M00/6E/37/wKgByFdP8A-AGrtpAADwfqKVI_I018.gif",
+        "nameA": "程序员队",
+        "nameB": "艺术妹子队",
+        "playDate": 1464883200000,
+        "playTime": 1464943020000,
+        "playTimeMd": "6月03日",
+        "playTimeStr": "16:00",
+        "result": -1,
+        "scoreA": 1,
+        "scoreB": 2,
+        "stage": 0,
+        "teamA": "574ff0058b1aced2455900d5",
+        "teamB": "574ff0228b1aced2455900d7"
+      }],
+      "B组": [{
+        "countA": 0,
+        "countB": 0,
+        "countDraw": 0,
+        "id": "574ff05b8b1aced2455900da",
+        "logoA": "http://192.168.1.200:8080/group1/M00/6E/37/wKgByFdP8B2AOdwEAABgKv3TU5o547.gif",
+        "logoB": "http://192.168.1.200:8080/group1/M00/6E/37/wKgByFdP7_6AWpllAABvvP-P1LI925.gif",
+        "nameA": "乌龟队",
+        "nameB": "小黄人队",
+        "playDate": 1464883200000,
+        "playTime": 1464943020000,
+        "playTimeMd": "6月03日",
+        "playTimeStr": "16:00",
+        "stage": 1,
+        "teamA": "574ff0308b1aced2455900d8",
+        "teamB": "574ff0118b1aced2455900d6"
+      }]
+    }
+  }
+}

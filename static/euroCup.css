@@ -1,0 +1,220 @@
+*{margin:0;padding:0;}
+html{font-size: 100px;}
+html,body{width:100%;height:100%;}
+body{font-family:Microsoft YaHei,Helvetica,STHeiti,Droid Sans Fallback;background:url(images/ban_bg.jpg) top center no-repeat, url(images/main_bg.jpg) 0 0 repeat-y;background-size:contain;}
+img{border:none;display:block;width:100%;}
+ul,ol{list-style:none;}
+a{text-decoration: none;}
+input,button,a{outline:none;}
+.clearfix:after {clear: both;content: " "; display: block;font-size: 0;height: 0;visibility: hidden;}
+.clearfix {}
+.clear {clear: both;font-size: 0;height: 0;overflow: hidden;}
+.left,.l{float:left;}
+.right,.r{float:right;}
+
+.ml-10{margin-left:.1rem;}
+.ml-20{margin-left:.2rem;}
+.mr-10{margin-right:.1rem;}
+.mr-20{margin-right:.2rem;}
+.pb-120{padding-bottom:1.2rem;}
+.euro-cup .mt-324{margin-top:3.24rem;}
+.euro-cup .mt-390{margin-top:3.9rem;}
+.icon{background: url(images/euro_cup_icon_bg.png) 0 0 no-repeat; background-size:2.5rem;}
+
+.euro-cup{width:100%;font-size:.32rem;}
+.euro-share{height:100%;}
+.euro-home{width:100%;height:100%;}
+.euro-box{width:90%;margin:0 auto;padding:.04rem;background-color:rgba(0,0,0,.4);}
+.box-hd{height:.5rem;line-height:.5rem;padding-left:.15rem;background:url(images/titile_bg.gif) 0 0 repeat-x;background-size:.5rem;color:#fff64b;font-size:.24rem;}
+.box-bd{background-color:#1f4b11;}
+.my-team-flag{width:.8rem;height:.8rem;margin:.2rem auto 0 auto;border-radius:100%;overflow: hidden;}
+.my-team .bd{text-align:center;padding-bottom:.2rem;overflow: hidden;}
+.my-team-flag img{width:100%;height:100%;}
+.my-team .bd .my-team-name,.game-team .my-team-name{font-size:.24rem;line-height:.5rem;color:#fff;}
+.my-team .bd .my-team-spo{font-size:.22rem;line-height:.3rem;color:#90ae80;}
+.selected-team{padding:.32rem 0 .2rem 0;}
+.btn,.spo-btn .supported.current,.t-btn .supported.current{display:inline-block;margin:0 auto;text-align:center;color:#0e3202;background-color:#f4ca06;border:.03rem solid #1b3f0f;border-radius:4px;box-shadow:0 2px 1px rgba(255,255,255,.4) inset;font-size:.26rem;font-weight:700;}
+.selected-team .sel-btn{width:2.46rem;height:.6rem;line-height:.6rem;}
+
+/*今日竞猜*/
+.today-game,.game-rule{margin-top:.22rem;}
+.today-game .game-time{line-height:.78rem;font-size:.26rem;color:#90ae80;}
+.today-game .box-bd{padding:0 .16rem .3rem .16rem;}
+.guess-wrap{width:100%;background-color:#1f4b10;border:1px solid #245113;overflow:hidden;}
+.game-box{position:relative;width:100%;padding: .35rem 0 .2rem 0; background-color:#19410e;overflow:hidden;}
+.game-box .vs{position:absolute;top:0;left:0;bottom:0;right:0;width:1rem;height:1rem;line-height:.7rem;margin:auto;font-size:.36rem;color:#f5d00b;text-align:center;}
+.game-team{float:left;width:50%;}
+.game-team .my-team-name{padding-top:.08rem; text-align:center;}
+
+.team-support{overflow: hidden;}
+.tips-text{line-height:.55rem;font-size:.24rem;color:#93c17c;text-align:center;}
+.team-support li{height:1rem;line-height:1rem;overflow:hidden;background-color:#19400d;}
+.team-support li:nth-child(2){background-color:#1c4510;}
+.team-support li>div{float:left;}
+.team-support .spo-result{width:40%;text-indent:.2rem;font-size:.28rem;color:#fff;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.team-support .spo-percent{width:30%;height:100%;line-height:initial;}
+.spo-percent p{width:100%;}
+.spo-percent .per-bar{height:.06rem;line-height:.06rem;margin-top:.25rem;}
+.spo-percent .per-bar span{display:inline-block;height:.06rem;}
+.per-bar .barA{background-color:#457eff;}
+.per-bar .barB{background-color:#58b727;}
+.per-bar .barC{background-color:#fc6827;}
+.spo-percent .spo-num{height:.36rem;}
+.spo-percent .spo-num span{display:inline-block;height:.36rem;font-size:.1rem;line-height:.36rem;color:#6f9f5f;}
+.team-support .spo-btn{width:30%;text-align:right;}
+.spo-btn .btn{width:1.2rem;height:.5rem;line-height:.5rem;margin-right:.15rem;font-size:.28rem;}
+.score-guess .guess-box{background-color:#19410e;overflow: hidden;}
+.submit-score{width:1.3rem;height:100%;}
+.submit-score .btn{width:1.2rem;height:1.54rem;margin:.23rem 0 .18rem 0;text-align:center;font-size:.3rem;}
+.submit-score .btn.submited,.spo-btn .supported,.t-btn .supported{background-color:#565e57;color:#fff;font-size:.28rem;}
+.spo-btn .btn,.spo-btn .supported.current{margin-right:.15rem;font-size:.28rem;}
+.submit-score .a-btn{height:1.16rem;padding-top:.38rem;}
+.score-box {height:100%;}
+.score-box p{height:.97rem;overflow: hidden;}
+.score-box p label{padding-left:.16rem;line-height:.97rem;color:#fff;font-size:.28rem;}
+.score-box .score-ipt{width:1.06rem;height:.52rem;margin:.22rem .44rem 0 0;text-align:center;font-size:.3rem;color:#f5e810;border:1px solid #2c621b;background-color:#28511a;}
+.game-rule .box-bd{padding:0 .15rem;}
+.game-rule .box-bd h4{line-height:.6rem;font-size:.28rem;color:#fff;font-weight:400;}
+.rule-part li{padding-bottom:.15rem;font-size:.24rem;color:#7c9c72;line-height:.36rem;overflow:hidden;}
+.gift{padding-top:.15rem;}
+.gift .gift-box{float:left;width:2.58rem;margin:0 .07rem;}
+.gift .gift-pic{height:2.04rem;}
+.gift .gift-name{padding:.18rem 0;line-height:.36rem;font-size:.24rem;color:#e9de32;}
+.copy-right{padding:.4rem 0 .2rem 0;text-align:center;font-size:.24rem;color:#f9f46a;}
+
+/*底部tab*/
+.tab-bar{position:fixed;bottom:0;left:0;right:0;width:100%;background-color:#3d8717;}
+.tab-bar ul{width:100%;height:.94rem;overflow:hidden;}
+.tab-bar li{float:left;width:30%;height:.9rem;line-height:.9rem;margin:0 1.6%;text-align:center;border-bottom:.04rem solid #3d8717;}
+.tab-bar li.cur-tab{border-bottom:.04rem solid #fdef16;}
+.tab-bar li .icon{position:relative;top:.05rem; display:inline-block;width:.34rem;height:.34rem;}
+.tab-bar li .icon-home{background-position:0 0;}
+.tab-bar li .icon-schedule{background-position:-.4rem 0;}
+.tab-bar li .icon-result{background-position:-.8rem 0;}
+.tab-bar li.cur-tab .icon-home{background-position:0 -.4rem;}
+.tab-bar li.cur-tab .icon-schedule{background-position:-.4rem -.4rem;}
+.tab-bar li.cur-tab .icon-result{background-position:-.8rem -.4rem;}
+.tab-bar li span{font-size:.24rem;font-weight:700;color:#fff;}
+.tab-bar li.cur-tab span{color:#fdef16;}
+
+/*气泡提示*/
+.toast{position:fixed;bottom:30%;left:50%;padding:10px;line-height:16px;text-align:center;font-size:14px;color:#fff;background-color:rgba(0,0,0,.5);border-radius:5px;z-index:4;-webkit-transform:translate3d(-50%, 0, 0);transform:translate3d(-50%, 0, 0);-webkit-animation:slideUp .2s ease;-o-animation:slideUp .2s ease;animation:slideUp .2s ease;}
+/*弹窗*/
+.guess-layout{position:fixed;left:0;top:0;right:0;bottom:0;z-index:3;overflow: hidden;background:rgba(0,0,0,.3);-webkit-animation:fadeIn .3s ease;-o-animation:fadeIn .3s ease;animation:fadeIn .3s ease;}
+.guess-layout form{display:table;position:absolute;top:0;left:0;bottom:0;right:0;width:89%;max-width:400px;margin:auto;}
+.guess-layout form .form-wrap{display:table-cell;vertical-align:middle;width:100%;height:auto;margin:auto;border-radius:3px;overflow:hidden;-webkit-animation:slideUp .4s ease;-o-animation:slideUp .4s ease;animation:slideUp .4s ease;}
+.guess-layout .title{line-height:.86rem;text-align:center;font-size:.32rem;color:#fff;font-weight:400;background-color:#3d8717;}
+.guess-layout .input-box{padding:.2rem .26rem .3rem;background-color:#fff;}
+.input-box p{padding:5px 0;overflow: hidden;}
+.input-box .pop-cont{line-height:.54rem;font-size:.34rem;color:#333;}
+.pop-code input{float:left;width:3.1rem;height:.68rem;margin-right:.12rem;border:none;border-radius:3px;background-color:#eee;color:#666;text-align:center;font-size:.3rem;}
+.pop-code img{float:left;width:1.9rem;height:.68rem;}
+
+.guess-layout .footer-btn{border-top:1px solid #e8e8e8;padding:0;background-color:#fff;}
+.footer-btn a{display:inline-block;width:49%;height:.86rem;line-height:.86rem;text-align:center;font-size:.28rem;color:#888;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,.1);}
+.footer-btn .cancel-btn{position:relative;}
+.footer-btn .cancel-btn:after{content:'';position:absolute;right:0px;top:0;height:.86rem;width:0; border-right:1px solid #e8e8e8;}
+.footer-btn .submit-btn{color:#4a9131;}
+.bt-text{padding-bottom:.1rem;color:#7c9c72;font-size:.24rem;text-align:center;}
+
+/*精彩赛程*/
+.euro-schedule .game-list,.euro-result .euro-box{margin-bottom:.15rem;}
+.game-list .box-bd{padding-bottom:.2rem;}
+.group{margin:0 .16rem; border:1px solid #204d11;}
+.box-bd .game-date{line-height:.76rem;text-align:center;font-size:.26rem;color:#90ae80;}
+.tow-team{padding:.23rem 0;overflow:hidden;background-color:#1b420f;}
+.tow-team .team{float:left;width:37%;}
+.game-info .game-time{line-height:.48rem;color:#fff;text-align:center;background-color:#17390c;}
+.tow-team img{display:inline-block;width:.54rem;height:.54rem;border-radius:100%;}
+.team-name{font-size:.24rem;color:#fff;line-height:.54rem;}
+.tow-team .teamA{text-align:right;}
+.tow-team .vs{float:left;width:26%;text-align:center;font-size:.36rem;color:#f5d00b;line-height:.54rem;}
+
+/*我的主队*/
+.all-team .box-bd{padding:0 .2rem;}
+.all-team .des{padding:.3rem 0;line-height:.3rem;font-size:.22rem;color:#90ae80;}
+.all-team .team-item{padding:.25rem 0 .2rem 0;overflow:hidden;border-top:1px solid #306519;}
+.team-item .team-box{float:left;width:33.33%;}
+.team-item p{text-align:center;}
+.team-item .t-logo img{width:.78rem;height:.78rem;border-radius:100%;margin:0 auto;}
+.team-item .t-name{height:.66rem;line-height:.66rem;font-size:.26rem;color:#fff;overflow: hidden;}
+.team-item .btn{width:1.52rem;height:.54rem;font-size:.26rem;}
+
+/*获奖结果*/
+.euro-result{}
+.waiting{padding:.34rem 0 .2rem 0;background-color:#1d4910;}
+.waiting p{text-align:center;}
+.wait-cup .icon{display:inline-block;width:1.1rem;height:1.1rem;margin:0 auto; background-position:-1.41rem 0;}
+.wait-text{font-size:.3rem;line-height:.54rem;color:#fff;}
+.wait-date{font-size:.24rem;line-height:.5rem;color:#92bc84;}
+
+.final-winner{text-align:center;}
+.final-team{display:inline-block;height:.6rem;margin:.25rem auto 0 auto;padding:.08rem .14rem  .04rem .14rem;line-height:.6rem;}
+.final-team > div{height:.6rem;}
+.final-team .icon{display:inline-block;width:.6rem;height:.6rem;background-size:1.375rem;background-position:-.77rem 0;}
+.f-team-name{display:inline-block;position:relative;top:-.2rem;padding:0 .1rem;font-size:.24rem;color:#fff;}
+.f-logo{display:inline-block;}
+.f-logo img{width:.52rem;height:.52rem;border-radius:100%;}
+.f-winner{text-align:left;padding-bottom:.28rem;overflow: hidden;}
+.user-avatar{float:left;width:22.6%;height:.8rem;}
+.user-avatar img{display:inline-block;width:.8rem;height:.8rem;margin-left:.36rem;border-radius:100%;}
+.winner-info{width:77.4%;overflow:hidden;}
+.user-name{line-height:.4rem;font-size:.28rem;color:#fff;}
+.user-prize{line-height:.4rem;font-size:.22rem;color:#92bc84;}
+
+.winner-box .winner-list{max-height:5.2rem;padding:.16rem .18rem; overflow: auto;}
+.winner-list li{width:100%;overflow: hidden;}
+.winner-list li span{display:inline-block;width:32.1%;font-size:.24rem;line-height:.52rem;color:#fff;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.my-all-guess .box-bd{padding-bottom:.16rem;}
+.my-all-guess .game-info{background-color:#1b420f;}
+.game-info .g-result{overflow: hidden;padding-bottom:.4rem;margin:0 .2rem;border-bottom:1px solid #204d11;}
+.game-info:last-child .g-result{border-bottom:none;}
+.g-result > div{width:50%;float:left;}
+.g-result span{display:inline-block;}
+.g-result .txt{font-size:.24rem;color:#fff;}
+.g-result .res{min-width:1.38rem;height:.48rem;line-height:.48rem;padding:0 .1rem;font-size:.2rem;color:#fff;border-radius:3px;text-align:center;}
+.g-result .green{background-color:#19a329;}
+.g-result .red{background-color:#bd3b3b;}
+.g-result .gray{background-color:#565e57;}
+
+/*分享*/
+.share-view{width:100%;background:url(images/share_bg.jpg) top center no-repeat, url(images/share_main_bg.jpg) 0 0 repeat-y;background-size:contain;overflow: hidden;}
+.share-view .support-pepole{margin-top:2.5rem;line-height:.5rem;font-size:.28rem;color:#fff;text-align:center;}
+.share-view .support-pepole .clr-yel{color:#fdef16;}
+.share-view .euro-box{margin-top:.3rem;}
+.share-view .hd-line{height:.2rem;background:url(images/share_title.gif) 0 0 repeat-x;}
+.play-rule{padding:.15rem .2rem .2rem .2rem;}
+.play-rule h2,.play-rule h3{font-weight:400;}
+.play-rule .title{padding-bottom:.16rem;font-size:.26rem; line-height:.36rem;color:#b6dfa9;}
+.play-rule li{padding-bottom:.1rem;}
+.play-rule li h3{line-height:.6rem;font-size:.28rem;color:#ffff4a;}
+.play-rule li h3:before{content:"";display:inline-block;width:.14rem;height:.14rem;margin-right:.2rem; border-radius:100%;font-size:.4rem;background-color:#ffff4a;}
+.play-rule li p{line-height:.46rem;font-size:.24rem;color:#fff;}
+.share-view .share-text{line-height:1rem;font-size:.28rem;color:#83a478;text-align:center;}
+
+/*下载按钮*/
+.download-banner{height:.9rem;padding:.28rem;overflow:hidden;background-color:rgba(33,65,19,.5);}
+.download-banner em,.footer-banner em{font-style:normal;}
+.app,.app .app-icon,.left-word {float:left;}
+.app{width:60%;}
+.app .app-icon{width:.9rem;height:.9rem;margin-right:.1rem;}
+.app img{width:100%;height:100%;}
+.app span{display:block;color:#fff;}
+.left-word h3 em{color:#fff;}
+.app-info .chinese{padding:.18rem 0 0;line-height:.32rem;font-size:.32rem;color:#fff;}
+.app-info .english{line-height:.24rem;font-size:.16rem;font-weight:400;transform: scale(0.8) translateX(-.2rem);}
+.download{float:right;width:40%;overflow:hidden;}
+.download .download-btn,.left-word a{float:right;display:block;width:1.98rem;height:.7rem;line-height:.7rem;text-align:center;font-size:.3rem;color:#fff;background-color:#00baa2;border-radius:3px;text-decoration:none;margin-top:.08rem;}
+
+
+/*页面切换动画*/
+.slide-transition{-webkit-transition:all .3s ease;transition:all .3s ease;}
+.slide-enter{-webkit-transform:translate3d(50%, 0, 0);transform:translate3d(50%, 0, 0);}
+.slide-leave{-webkit-transform:translate3d(-100%, 0, 0);transform:translate3d(-100%, 0, 0);}
+
+.slideUp-transition{-webkit-transition:all .3s ease;transition:all .3s ease;}
+.slideUp-enter{-webkit-transform:translate3d(0, 20%, 0);transform:translate3d(0, 20%, 0);opacity:0;}
+.slideUp-leave{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);opacity:0;}
+
+.fade-transition{-webkit-transition:all .3s ease;transition:all .3s ease;}
+.fade-enter,.fade-leave{opacity:0;}
