@@ -15,10 +15,6 @@ module.exports = {
     assetsPublicPath: '/',
     port: 8383,
     proxyTable: {
-      '/ecc': {
-        target: 'https://wapt.bingodu.cn',
-        changeOrigin: true
-      }
     }
   }
 }

@@ -78,7 +78,7 @@ input,button,a{outline:none;}
 .rule-part li{padding-bottom:.15rem;font-size:.24rem;color:#7c9c72;line-height:.36rem;overflow:hidden;}
 .gift{padding-top:.15rem;}
 .gift .gift-box{float:left;width:2.58rem;margin:0 .07rem;}
-.gift .gift-pic{height:2.04rem;}
+.gift .gift-pic{height:2.04rem;overflow: hidden;}
 .gift .gift-name{padding:.18rem 0;line-height:.36rem;font-size:.24rem;color:#e9de32;}
 .copy-right{padding:.4rem 0 .2rem 0;text-align:center;font-size:.24rem;color:#f9f46a;}
 

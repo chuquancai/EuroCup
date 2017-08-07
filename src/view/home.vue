@@ -106,7 +106,7 @@
 									<p class="gift-name">{{ gift.name }}</p>
 								</div>
 								<div class="gift-box">
-									<p class="gift-pic"><img src="../../static/images/gift1.png" height="204" width="258" alt="小狗家用除螨仪"></p>
+									<p class="gift-pic"><img src="../../static/images/gift1.png" alt="小狗家用除螨仪"></p>
 									<p class="gift-name">小狗家用除螨仪</p>
 								</div>
 								<div class="gift-box">
@@ -151,19 +151,19 @@
 			pg2 = require('../../static/images/gift2.jpg')
 	export default {
 		ready () {
-			const uid = this.uid === '0' ?  '' : this.uid
-			this.$http.get('/ecc/getTodayGame?uid=' + uid).then(function(response) {
-			// this.$http.get('static/today.json?uid=' + uid).then(function(response) {
-				let rsp = response.data
+			// const uid = this.uid === '0' ?  '' : this.uid
+			// this.$http.get('/ecc/getTodayGame?uid=' + uid).then(function(response) {
+				// let rsp = response.data
+				let rsp = require('../../static/today.json')
 				if (rsp.code === 'success') {
 					this.hostTeam = rsp.data.host ? rsp.data.host : null
 					this.selected = rsp.data.host ? true : false
 					this.gameList = rsp.data.gameList
 				}
-			},function(response) {
-			    this.$emit('show-toasts', '网络不给力')
+			// },function(response) {
+			//     this.$emit('show-toasts', '网络不给力')
 
-			});
+			// });
 		},
 		components : { Layout },
 		props: {
@@ -282,9 +282,11 @@
 					return
 				}
 				if(scoreA >= 0 && scoreB >= 0){
-					this.$http.post('/ecc/guessGamePoint?uid='+ this.uid + "&gameId=" + game.id + '&point=' + scoreA + ':' + scoreB).then(function(response) {
+					let quiz = require('../../static/quiz.json')
+					// this.$http.post('/ecc/guessGamePoint?uid='+ this.uid + "&gameId=" + game.id + '&point=' + scoreA + ':' + scoreB).then(function(response) {
 					// this.$http.get('static/quiz.json').then(function(response) {
-						let rsp = response.data
+						// let rsp = response.data
+						let rsp = quiz
 						if (rsp.code === 'success') {
 							
 							this.gameList[idx] = Object.assign({}, this.gameList[idx], { betScore: true })
@@ -294,9 +296,9 @@
 						else if(rsp.code === 'fail'){
 							this.$emit('show-toasts', rsp.result)
 						}
-					},function(response) {
-					    this.$emit('show-toasts', '网络不给力')
-					})
+					// },function(response) {
+					//     this.$emit('show-toasts', '网络不给力')
+					// })
 				}
 				else{
 					this.$emit('show-toasts', '请输入正确的比分')

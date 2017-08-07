@@ -85,9 +85,9 @@
 <script>
 	export default {
 		ready () {
-			this.$http.get('/ecc/getMyQuiz?uid='+ this.uid).then(function(response) {
-			// this.$http.get('static/quiz.json').then(function(response) {
-				let rsp = response.data
+			// this.$http.get('/ecc/getMyQuiz?uid='+ this.uid).then(function(response) {
+			// 	let rsp = response.data
+				let rsp = require('../../static/quiz.json')
 				if (rsp.code === 'success') {
 					if (this.logged){
 						this.quizList = rsp.data.quiz.records
@@ -103,9 +103,9 @@
 					this.finalWinner.reverse()
 					this.finalResult = this.finalWinner.length ? true : false
 				}
-			},function(response) {
-			    this.$emit('show-toasts', '网络不给力')
-			});
+			// },function(response) {
+			//     this.$emit('show-toasts', '网络不给力')
+			// });
 
 		},
 		props: {

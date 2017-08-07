@@ -36,18 +36,19 @@
 <script>
 	export default {
 		ready () {
-			this.$http.get('/ecc/getTeamList').then(function(response) {
-			// this.$http.get('static/getTeam.json').then(function(response) {
-				let rsp = response.data
+			// this.$http.get('/ecc/getTeamList').then(function(response) {
+			// 	let rsp = response.data
+				let team = require('../../static/getTeam.json')
+				let rsp = team
 				if (rsp.code === 'success') {
 					this.allTeam = rsp.data
 					this.totals = Math.ceil(this.allTeam.length / 3)
 					this.hostTeam = rsp.host ? rsp.host : null
 					this.supported = rsp.host ? true : false
 				}
-			},function(response) {
-			   	this.$emit('show-toasts', '网络不给力')
-			});
+			// },function(response) {
+			//    	this.$emit('show-toasts', '网络不给力')
+			// });
 		},
 		props: {
 			currentView : {
@@ -84,8 +85,9 @@
 				}
 				else{
 					this.curTeam = item
-					this.$http.post('/ecc/chooseHostTeam?uid=' + this.uid + '&teamId=' + this.curTeam.id + '&teamLogo=' + this.curTeam.logo).then(function(response) {
-						let rsp = response.data
+					// this.$http.post('/ecc/chooseHostTeam?uid=' + this.uid + '&teamId=' + this.curTeam.id + '&teamLogo=' + this.curTeam.logo).then(function(response) {
+					// 	let rsp = response.data
+						let rsp = {code: 'success'}
 						if (rsp.code === 'success') {
 							this.hostTeam = item
 							e.target.innerHTML = '已选择'
@@ -102,9 +104,9 @@
 							this.$emit('show-toasts', '选队失败,请稍后再试')
 						}
 
-					},function(response) {
-					    this.$emit('show-toasts', '网络不给力')
-					})
+					// },function(response) {
+					//     this.$emit('show-toasts', '网络不给力')
+					// })
 				}
 				
 			}

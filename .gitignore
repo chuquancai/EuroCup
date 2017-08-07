@@ -13,6 +13,6 @@ unit/
 coverage
 test/
 e2e/
-/reports
+/EC_images
+/
 userStatus_test.html
-EC_images/

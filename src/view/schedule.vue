@@ -34,15 +34,16 @@
 <script>
 	export default {
 		ready () {
-			this.$http.get('/ecc/getAllGame').then(function(response) {
+			// this.$http.get('/ecc/getAllGame').then(function(response) {
 			// this.$http.get('static/schedule.json').then(function(response) {
-				let rsp = response.data
+				// let rsp = response.data
+				let rsp = require('../../static/schedule.json')
 				if (rsp.code === 'success') {
 					this.gameList = rsp.data
 				}
-			},function(response) {
-			    this.$emit('show-toasts', '网络不给力')
-			})
+			// },function(response) {
+			//     this.$emit('show-toasts', '网络不给力')
+			// })
 		},
 		props: {
 			currentView : {

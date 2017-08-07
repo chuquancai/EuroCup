@@ -73,8 +73,9 @@
 				else if (team === this.gameList[idx].teamB) {
 					result = 1
 				}
-				this.$http.post('/ecc/guessGameResultVerify?uid='+ this.uid + "&gameId=" + this.gameList[idx].id+ '&result=' + result + "&input=" + this.code).then(function (response) {
-					let rsp = response.data
+				// this.$http.post('/ecc/guessGameResultVerify?uid='+ this.uid + "&gameId=" + this.gameList[idx].id+ '&result=' + result + "&input=" + this.code).then(function (response) {
+				// 	let rsp = response.data
+					let rsp = {code: 'success'}
 					if (rsp.code === 'success') {
 						this.code = ''
 						if (team === this.gameList[idx].teamA) {
@@ -116,9 +117,9 @@
 					else{
 						this.$emit('show-toasts', '竞猜失败，请稍后再试')
 					}
-				},(response) => {
-				    this.$emit('show-toasts', '网络不给力')
-				})
+				// },(response) => {
+				//     this.$emit('show-toasts', '网络不给力')
+				// })
 			},
 			cancelGuess () {
 				this.showPop = false

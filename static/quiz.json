@@ -6,16 +6,16 @@
       "records": {
         "6月15日": [{
           "gameId": "5757cb99aa3075570493e633",
-          "logoA": "http://image.bingodu.com/group1/M01/A2/84/CgELI1dXx7yAfxI7AAANDtoORjg27.jpeg",
-          "logoB": "http://image.bingodu.com/group1/M03/A2/85/CgELI1dXyF6AC9DiAAAQmGapzIk97.jpeg",
+          "logoA": "https://image.bingodu.cn/group1/M01/A2/84/CgELI1dXx7yAfxI7AAANDtoORjg27.jpeg",
+          "logoB": "https://image.bingodu.cn/group1/M03/A2/85/CgELI1dXyF6AC9DiAAAQmGapzIk97.jpeg",
           "nameA": "俄罗斯",
           "nameB": "斯洛伐克",
           "quizResult": 0,
           "scoreResult": 0
         }, {
           "gameId": "5757cb2aaa3075570493e632",
-          "logoA": "http://image.bingodu.com/group1/M00/A2/76/CgELJFdXyBSACBBhAAAQ8any9ug92.jpeg",
-          "logoB": "http://image.bingodu.com/group1/M00/A2/75/CgELJFdXx5WABBU9AAASckjBqxw62.jpeg",
+          "logoA": "https://image.bingodu.cn/group1/M00/A2/76/CgELJFdXyBSACBBhAAAQ8any9ug92.jpeg",
+          "logoB": "https://image.bingodu.cn/group1/M00/A2/75/CgELJFdXx5WABBU9AAASckjBqxw62.jpeg",
           "nameA": "葡萄牙",
           "nameB": "冰岛",
           "quizResult": -1,
@@ -25,8 +25,8 @@
         }],
         "6月14日": [{
           "gameId": "5757cae2aa3075570493e630",
-          "logoA": "http://image.bingodu.com/group1/M01/A2/84/CgELI1dXx4uAb4Q0AAAOY3xz_u495.jpeg",
-          "logoB": "http://image.bingodu.com/group1/M00/A2/77/CgELJFdXyKaAMZtVAAAN5A-ultM58.jpeg",
+          "logoA": "https://image.bingodu.cn/group1/M01/A2/84/CgELI1dXx4uAb4Q0AAAOY3xz_u495.jpeg",
+          "logoB": "https://image.bingodu.cn/group1/M00/A2/77/CgELJFdXyKaAMZtVAAAN5A-ultM58.jpeg",
           "nameA": "比利时",
           "nameB": "意大利",
           "quizResult": 1,
@@ -36,8 +36,8 @@
           "scoreResult": -1
         }, {
           "gameId": "5757cab8aa3075570493e62f",
-          "logoA": "http://image.bingodu.com/group1/M01/A2/75/CgELJFdXxy2ACFTfAAAN1Q368Xk32.jpeg",
-          "logoB": "http://image.bingodu.com/group1/M00/A2/84/CgELI1dXyCCAK9YaAAAQrHy10ng26.jpeg",
+          "logoA": "https://image.bingodu.cn/group1/M01/A2/75/CgELJFdXxy2ACFTfAAAN1Q368Xk32.jpeg",
+          "logoB": "https://image.bingodu.cn/group1/M00/A2/84/CgELI1dXyCCAK9YaAAAQrHy10ng26.jpeg",
           "nameA": "爱尔兰",
           "nameB": "瑞典",
           "quizResult": -1,
@@ -47,8 +47,8 @@
         }],
         "6月13日": [{
           "gameId": "5757ca7caa3075570493e62e",
-          "logoA": "http://image.bingodu.com/group1/M01/A2/85/CgELI1dXyJGAX3uyAAARik67GeA03.jpeg",
-          "logoB": "http://image.bingodu.com/group1/M01/A2/76/CgELJFdXx-aAXRVtAABDc4ydFe807.jpeg",
+          "logoA": "https://image.bingodu.cn/group1/M01/A2/85/CgELI1dXyJGAX3uyAAARik67GeA03.jpeg",
+          "logoB": "https://image.bingodu.cn/group1/M01/A2/76/CgELJFdXx-aAXRVtAABDc4ydFe807.jpeg",
           "nameA": "西班牙",
           "nameB": "捷克",
           "quizResult": 1,
@@ -58,8 +58,8 @@
           "scoreResult": -1
         }, {
           "gameId": "5757ca5caa3075570493e62d",
-          "logoA": "http://image.bingodu.com/group1/M00/A2/84/CgELI1dXx62AVhDFAAAOJpdVSp481.jpeg",
-          "logoB": "http://image.bingodu.com/group1/M00/A2/85/CgELI1dXyIaAJqsmAAANtraqpn489.jpeg",
+          "logoA": "https://image.bingodu.cn/group1/M00/A2/84/CgELI1dXx62AVhDFAAAOJpdVSp481.jpeg",
+          "logoB": "https://image.bingodu.cn/group1/M00/A2/85/CgELI1dXyIaAJqsmAAANtraqpn489.jpeg",
           "nameA": "德国",
           "nameB": "乌克兰",
           "quizResult": 1,
@@ -69,8 +69,8 @@
           "scoreResult": -1
         }, {
           "gameId": "5757ca36aa3075570493e62c",
-          "logoA": "http://image.bingodu.com/group1/M04/A2/84/CgELI1dXx6GAQ_-4AAAJQkzqo_I59.jpeg",
-          "logoB": "http://image.bingodu.com/group1/M04/A2/75/CgELJFdXx3yAPbsuAAAOshgtzLw65.jpeg",
+          "logoA": "https://image.bingodu.cn/group1/M04/A2/84/CgELI1dXx6GAQ_-4AAAJQkzqo_I59.jpeg",
+          "logoB": "https://image.bingodu.cn/group1/M04/A2/75/CgELJFdXx3yAPbsuAAAOshgtzLw65.jpeg",
           "nameA": "波兰",
           "nameB": "北爱尔兰",
           "quizResult": 1,
@@ -81,8 +81,8 @@
         }],
         "6月12日": [{
           "gameId": "5757c9f8aa3075570493e62b",
-          "logoA": "http://image.bingodu.com/group1/M02/A2/77/CgELJFdXyGyAb21sAAARMfC-ebA21.jpeg",
-          "logoB": "http://image.bingodu.com/group1/M00/A2/84/CgELI1dXx_OAD2JXAAAUNrjnEvQ88.jpeg",
+          "logoA": "https://image.bingodu.cn/group1/M02/A2/77/CgELJFdXyGyAb21sAAARMfC-ebA21.jpeg",
+          "logoB": "https://image.bingodu.cn/group1/M00/A2/84/CgELI1dXx_OAD2JXAAAUNrjnEvQ88.jpeg",
           "nameA": "土耳其",
           "nameB": "克罗地亚",
           "quizResult": 1,
@@ -92,8 +92,8 @@
           "scoreResult": -1
         }, {
           "gameId": "5757c9d6aa3075570493e62a",
-          "logoA": "http://image.bingodu.com/group1/M04/A2/85/CgELI1dXyLCAdszmAAAMqfvzYbI80.jpeg",
-          "logoB": "http://image.bingodu.com/group1/M01/A2/84/CgELI1dXx7yAfxI7AAANDtoORjg27.jpeg",
+          "logoA": "https://image.bingodu.cn/group1/M04/A2/85/CgELI1dXyLCAdszmAAAMqfvzYbI80.jpeg",
+          "logoB": "https://image.bingodu.cn/group1/M01/A2/84/CgELI1dXx7yAfxI7AAANDtoORjg27.jpeg",
           "nameA": "英格兰",
           "nameB": "俄罗斯",
           "quizResult": 1,
@@ -103,8 +103,8 @@
           "scoreResult": -1
         }, {
           "gameId": "5757c9abaa3075570493e629",
-          "logoA": "http://image.bingodu.com/group1/M01/A2/85/CgELI1dXyHiALdxKAAASanxOaGQ64.jpeg",
-          "logoB": "http://image.bingodu.com/group1/M03/A2/85/CgELI1dXyF6AC9DiAAAQmGapzIk97.jpeg",
+          "logoA": "https://image.bingodu.cn/group1/M01/A2/85/CgELI1dXyHiALdxKAAASanxOaGQ64.jpeg",
+          "logoB": "https://image.bingodu.cn/group1/M03/A2/85/CgELI1dXyF6AC9DiAAAQmGapzIk97.jpeg",
           "nameA": "威尔士",
           "nameB": "斯洛伐克",
           "quizResult": -1,
@@ -114,8 +114,8 @@
         }],
         "6月11日": [{
           "gameId": "5757c978aa3075570493e628",
-          "logoA": "http://image.bingodu.com/group1/M00/A2/75/CgELJFdXxx2AdJPnAAASwOY2iCw57.jpeg",
-          "logoB": "http://image.bingodu.com/group1/M03/A2/76/CgELJFdXyFGATepoAAAQVYNYIH094.jpeg",
+          "logoA": "https://image.bingodu.cn/group1/M00/A2/75/CgELJFdXxx2AdJPnAAASwOY2iCw57.jpeg",
+          "logoB": "https://image.bingodu.cn/group1/M03/A2/76/CgELJFdXyFGATepoAAAQVYNYIH094.jpeg",
           "nameA": "阿尔巴尼亚",
           "nameB": "瑞士",
           "quizResult": 1,
@@ -125,8 +125,8 @@
           "scoreResult": -1
         }, {
           "gameId": "5757c959aa3075570493e627",
-          "logoA": "http://image.bingodu.com/group1/M04/A2/84/CgELI1dXx9uAOpNVAAAOZs4uYiA28.jpeg",
-          "logoB": "http://image.bingodu.com/group1/M00/A2/84/CgELI1dXyAmAULoMAAAOqWVt96007.jpeg",
+          "logoA": "https://image.bingodu.cn/group1/M04/A2/84/CgELI1dXx9uAOpNVAAAOZs4uYiA28.jpeg",
+          "logoB": "https://image.bingodu.cn/group1/M00/A2/84/CgELI1dXyAmAULoMAAAOqWVt96007.jpeg",
           "nameA": "法国",
           "nameB": "罗马尼亚",
           "quizResult": 1,
