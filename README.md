@@ -1,6 +1,6 @@
 # EuroCup_vue
 
-> A Vue.js project
+> This id A Vue.js1.0 project
 
 ## Build Setup
 

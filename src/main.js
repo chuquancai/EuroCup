@@ -3,7 +3,7 @@ import App from './App'
 import VueResource from 'vue-resource'
 import '../static/euroCup.css'
 
-Vue.config.debug = true;
+Vue.config.debug = process.env === 'development'
 
 Vue.use(VueResource);
 
