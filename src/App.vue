@@ -1,7 +1,7 @@
 <template>
   <div id="app" :class="['euro-cup', UA.Bingdu ? 'pb-120' : 'euro-share']">
     <components :is="currentView" :current-view.sync="currentView" :logged="logged" :tips.sync="tips" :uid="uid" :UA="UA" @show-toasts="showToasts" :show-toast.sync="showToast" transition="slideUp" transition-mode="out-in"></components>
-    <tab-bar :current-view.sync="currentView" v-if="UA.Bingdu"></tab-bar>
+    <tab-bar :current-view.sync="currentView"></tab-bar>
     <toast v-show="showToast" :tips="tips" transition="fade"></toast>
   </div>
 </template>
@@ -21,7 +21,7 @@ export default {
     this.uid = uid || '';
     this.logged = (uid && uid !== '' && uid !== '0') ? true : false
     this.platform()
-    this.currentView = this.UA.Bingdu ? 'home' : 'share'
+    // this.currentView = this.UA.Bingdu ? 'home' : 'share'
   },
   data () {
     return {

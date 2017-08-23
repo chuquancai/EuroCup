@@ -4,8 +4,9 @@
   <script>
   	(function () {
   	    document.addEventListener('DOMContentLoaded', function () {
-  	        var html = document.documentElement;
-  	        var windowWidth = html.clientWidth;
+            var html = document.documentElement;
+  	        var body = document.body;
+  	        var windowWidth = body.clientWidth;
   	        html.style.fontSize = windowWidth / 6.4 + 'px';
   	    }, false);
   	})();
